@@ -1,0 +1,108 @@
+header{
+    position:fixed;
+    background-color: rgb(255, 55, 0) ; 
+    padding: 1px;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    padding: 2px 5px;
+    font-weight: bold;
+    border: solid 5px rgb(255, 255, 255) ;
+   color: rgb(255, 255, 255) ;
+   /* background-color: rgb(255, 55, 0) ; */
+   display: inline-block;
+   border-radius: 32px;
+   padding: px 15px ;
+   
+}
+
+
+.welcom{
+    max-width: 100%;
+    width: 1200px;
+    /* background-color: blue; */
+    position: relative;
+    margin: 10px auto;
+    height: 550px;
+}
+
+.welcom img{
+    position: absolute;
+    top: 28%;
+    left: 62.5%;
+    width: 400px ;
+    border-radius: 50%;
+    background-color: darkgray;
+    border-top-right-radius: 0;
+
+}
+
+.welcom h2{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+     position: absolute; 
+     left: 5% ;
+     top: 38%;
+     color: #333;
+}
+
+.welcom h2 span{
+    font-weight: bold;
+    color: rgb(255, 51, 0);
+}
+
+nav{
+    position: sticky;
+}
+nav ul{
+    display: flex;
+    background-color:rgb(207, 159, 35);
+    padding: 0.5%;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 17%;
+    font-size: 1.5rem;
+
+}
+nav ul li a{
+    display: block;
+    color:  rgb(255, 51, 0);
+    text-decoration: none;
+    
+   
+}
+
+.section h2{
+    display: block;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: bold;
+    color:rgb(255, 51, 0) ;
+}
+.section p{
+    margin-left: 20%;
+    font-size: 28px;
+}
+.section ul{
+    display: flex;
+}
+
+.image img{
+    max-width: 100%;
+    width: 600px;
+    margin-left: 70%;
+    margin-right: 35px;
+}
+.services img{
+    max-width: 100%;
+    width: 600px;
+    margin-left: 20%;
+    
+}
